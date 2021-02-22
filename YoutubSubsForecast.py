@@ -51,3 +51,4 @@ fcast_rwf = forecast_with_Rwf(ytsubs_df,'TotalSubscribers',30)
 fcast_rwf_df = pd.DataFrame({'Date':generate_date_range('2021-01-02'), 'TotalSubscribers':fcast_rwf})
 
 print(fcast_rwf_df)
+print(fcast_rwf[-1])
